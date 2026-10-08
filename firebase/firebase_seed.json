@@ -1,0 +1,70 @@
+{
+  "users": {
+    "admin": {
+      "fullName": "Quản trị viên",
+      "passwordHash": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+      "role": "ADMIN"
+    },
+    "user": {
+      "fullName": "Khách demo",
+      "passwordHash": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+      "role": "USER"
+    }
+  },
+  "rooms": {
+    "room1": {
+      "name": "Phòng Standard 101",
+      "image": "room_single",
+      "beds": 1,
+      "guests": 1,
+      "description": "Phòng đơn gọn gàng, điều hòa, WiFi miễn phí, cửa sổ hướng phố.",
+      "price": 350000,
+      "busy": false
+    },
+    "room2": {
+      "name": "Phòng Standard 102",
+      "image": "room_single",
+      "beds": 1,
+      "guests": 2,
+      "description": "Phòng 1 giường lớn, điều hòa, TV, phòng tắm riêng.",
+      "price": 400000,
+      "busy": false
+    },
+    "room3": {
+      "name": "Phòng Deluxe 201",
+      "image": "room_double",
+      "beds": 2,
+      "guests": 2,
+      "description": "2 giường đôi, ban công, TV 43 inch, bồn tắm.",
+      "price": 600000,
+      "busy": false
+    },
+    "room4": {
+      "name": "Phòng Deluxe 202",
+      "image": "room_double",
+      "beds": 2,
+      "guests": 3,
+      "description": "2 giường, view thành phố, minibar, WiFi tốc độ cao.",
+      "price": 650000,
+      "busy": false
+    },
+    "room5": {
+      "name": "Phòng Gia đình 301",
+      "image": "room_family",
+      "beds": 3,
+      "guests": 5,
+      "description": "3 giường, rộng rãi, phù hợp gia đình, có góc sinh hoạt chung.",
+      "price": 900000,
+      "busy": false
+    },
+    "room6": {
+      "name": "Phòng Suite 401",
+      "image": "room_suite",
+      "beds": 1,
+      "guests": 2,
+      "description": "1 giường King, phòng khách riêng, bồn jacuzzi, view toàn cảnh.",
+      "price": 1500000,
+      "busy": false
+    }
+  }
+}

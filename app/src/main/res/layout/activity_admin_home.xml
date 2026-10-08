@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvHello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primary"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnBookings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="📋 Đơn đặt phòng (xác nhận / từ chối)" />
+
+    <Button
+        android:id="@+id/btnRooms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🛏 Tình trạng phòng &amp; thời gian trống" />
+
+    <Button
+        android:id="@+id/btnAddRoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="➕ Thêm phòng mới" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Đăng xuất" />
+</LinearLayout>
